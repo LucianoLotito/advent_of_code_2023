@@ -73,7 +73,6 @@ fn main() {
             )
             .is_some()
         {
-            println!("Im here");
             current_pos.line = current_pos.line - 1;
         }
     }
@@ -91,7 +90,6 @@ fn main() {
             )
             .is_some()
         {
-            println!("Im here");
             current_pos.char = current_pos.char + 1;
         }
     }
@@ -109,7 +107,6 @@ fn main() {
             )
             .is_some()
         {
-            println!("Im here");
             current_pos.line = current_pos.line + 1;
         }
     }
@@ -127,7 +124,6 @@ fn main() {
             )
             .is_some()
         {
-            println!("Im here");
             current_pos.char = current_pos.char - 1;
         }
     }
